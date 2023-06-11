@@ -1,0 +1,37 @@
+
+
+MYCP                           MyShell Commands                           MYCP
+
+NAME
+       mycp - copy files and directories
+
+SYNOPSIS
+       mycp [OPTION] SOURCE DEST
+       mycp [OPTION] SOURCE... DIRECTORY
+
+NOTE BY THE AUTHOR
+       SOURCE(s) must not be a DIRECTORY.
+       The last entry must be a DIRECTORY when there are multiple SOURCEs.
+       Only single options are allowed.
+
+DESCRIPTION
+       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+OPTIONS
+
+       -b,
+              make a backup of each existing destination file.
+
+       -i, 
+              prompt before overwrite.
+
+       -n, 
+              do not overwrite an existing file (overrides a previous -i option).
+
+       -v,
+              explain what is being done.
+
+AUTHOR
+       Written by Nimai Parsa, CS22BTECH11044.
+
+

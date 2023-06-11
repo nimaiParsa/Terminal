@@ -1,0 +1,42 @@
+
+
+MYGREP                          MyShell Commands                        MYGREP
+
+NAME
+       mygrep - print lines that match pattern
+
+SYNOPSIS
+       mygrep [OPTION] PATTERN [FILE...]
+
+NOTE BY THE AUTHOR
+       FILE must not be a directory.
+       The PATTERN must not start with a '-'.
+       The PATTERN must be a single word (not containing any newline characters
+       or spaces).
+       The PATTERN may be enclosed in quotes.
+       Only Single Options are valid.	
+
+DESCRIPTION
+       mygrep  searches  for  PATTERN  in  each  FILE, and  mygrep prints  each
+       line that matches the pattern.
+
+OPTIONS
+       -v,
+             Invert the sense of matching, to select non-matching lines.
+       
+       -i,
+             Ignore  case  distinctions  in  patterns and  input data, so that
+             characters that differ only in case match each other.
+
+       -n,
+             Prefix each line of output with the  1-based line  number  within
+             its input file.
+
+       -c,
+             Suppress  normal output; instead print a count of matching  lines
+             for each input file.
+
+AUTHOR
+      Written by Nimai Parsa, CS22BTECH11044.
+
+

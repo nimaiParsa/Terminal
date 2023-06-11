@@ -1,0 +1,39 @@
+
+
+MYPS                            MyShell Commands                           MYPS
+
+NAME
+       myps - report a snapshot of the current processes.
+
+SYNOPSIS
+       myps [OPTION]
+
+NOTE BY THE AUTHOR
+       Only single options are valid (except -ej).
+
+DESCRIPTION
+       ps displays information about a selection of the active processes.   By 
+       default, ps selects all processes with he same effective user ID as the
+       current user and associated with the same terminal as the invoker.
+
+OPTIONS
+       -a,   
+              Select all  processes except  both session  leader and processes 
+	      not associated with a terminal.
+
+       -d,
+              Select all processes except session leaders.
+
+       -e,   
+              Select all processes.  Identical to -A.
+	
+       -A,     
+              Select all processes.  Identical to -e.
+
+       -j,
+              Jobs format.
+
+AUTHOR
+       Written by Nimai Parsa, CS22BTECH11044.
+
+

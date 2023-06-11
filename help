@@ -1,0 +1,43 @@
+	
+
+	                 MYSHELL - HELP
+******************************************************************
+
+ABOUT
+
+* Both the questions are implemented in the same PROGRAM.
+
+* MyShell can implement most of the LINUX/UNIX using system comma-
+  nd.
+
+* MyShell can implement the cd command.
+
+* MyShell can also implement myls, myps, mymv, mycp, mygrep.
+   
+  	myls - list directory contents,
+
+	myps - report a snapshot of the current processes,
+
+        mymv - move (rename) files,
+
+	mycp - copy files and directories,
+
+	mygrep - print lines that match pattern.
+
+* For more info about the above commands use,
+
+	man [COMMAND]
+
+  Examples
+       
+       man mygrep
+
+       man myps
+
+NOTE BY THE AUTHOR
+       All the files of the project MUST be in the same DIRECTORY
+
+AUTHOR 
+       Written by Nimai Parsa, CS22BTECH11044.
+
+

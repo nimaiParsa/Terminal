@@ -1,0 +1,40 @@
+
+
+MYLS                             MyShell Commands                            MYLS
+
+NAME
+       myls - list directory contents
+
+SYNOPSIS
+       myls [OPTION] [FILE]
+
+NOTE BY AUTHOR	
+	Only single options are valid.
+	Only "-a", "-U", "-1", are valid when FILE is specified.
+
+DESCRIPTION
+       List information about the FILEs (of the current directory by default).  Sort entries
+       alphabetically if no options are provided.
+
+       -a,
+              do not ignore entries starting with .
+
+       -l,
+              list entries which do not start with .
+
+       -g,
+              with -l, print the author of each file
+
+       -1,
+              list one file per line.       
+
+       -U,
+	      do not sort; list entries in directory order.
+
+       -S,
+	      sort by file size, largest first.
+
+AUTHOR
+       Written by Nimai Parsa, CS22BTECH11044.
+
+

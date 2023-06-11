@@ -1,0 +1,38 @@
+
+
+MYMV                              MyShell Commands                             MYMV
+
+NAME
+       mymv - move (rename) files
+
+SYNOPSIS
+       mymv [OPTION] SOURCE DEST
+       mymv [OPTION] SOURCE... DIRECTORY
+
+NOTE BY THE AUTHOR
+       "-b" CANNOT be used when the DEST file is a Directory.
+       "-i" CANNOT be used when there are multiple SOURCEs.
+       The last entry must be a DIRECTORY when there are mul-
+       tiple SOURCEs.
+       Only single options are valid.
+
+DESCRIPTION
+       Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+OPTIONS
+       -b,   
+              make a backup of each existing destination file.
+
+       -n,
+              do not overwrite an existing file.
+
+       -v,
+              explain what is being done.
+
+       -i,
+              prompt before overwrite
+
+AUTHOR
+       Written by Nimai Parsa, CS22BTECH11044.
+
+
